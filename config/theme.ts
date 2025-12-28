@@ -1,0 +1,32 @@
+export const themeConfig = {
+  colors: {
+    background: 'hsl(var(--background))',
+    foreground: 'hsl(var(--foreground))',
+    surface: 'hsl(var(--surface))',
+    surfaceElevated: 'hsl(var(--surface-elevated))',
+    muted: 'hsl(var(--muted))',
+    mutedForeground: 'hsl(var(--muted-foreground))',
+    border: 'hsl(var(--border))',
+    borderMuted: 'hsl(var(--border-muted))',
+    accent: 'hsl(var(--accent))',
+    accentForeground: 'hsl(var(--accent-foreground))',
+    primary: 'hsl(var(--primary))',
+    primaryForeground: 'hsl(var(--primary-foreground))',
+    secondary: 'hsl(var(--secondary))',
+    secondaryForeground: 'hsl(var(--secondary-foreground))',
+    destructive: 'hsl(var(--destructive))',
+    destructiveForeground: 'hsl(var(--destructive-foreground))',
+    success: 'hsl(var(--success))',
+    successForeground: 'hsl(var(--success-foreground))',
+    warning: 'hsl(var(--warning))',
+    warningForeground: 'hsl(var(--warning-foreground))',
+    error: 'hsl(var(--error))',
+    errorForeground: 'hsl(var(--error-foreground))',
+  },
+  borderRadius: {
+    lg: 'var(--radius)',
+    md: 'calc(var(--radius) - 2px)',
+    sm: 'calc(var(--radius) - 4px)',
+  },
+} as const
+
